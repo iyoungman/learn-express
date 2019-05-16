@@ -3,8 +3,8 @@
     "version": "0.0.0",
     "private": true,
     "scripts": {
-        "start": "nodemon ./bin/www --exec babel-node --presets @babel/preset-env",
-        "test": "NODE_ENV=test ./node_modules/.bin/jest tests --coverage"
+        "start": "cross-env NODE_ENV=production",
+        "test": "cross-env NODE_ENV=test ./node_modules/.bin/jest tests --coverage"
     },
     "dependencies": {
         "@babel/polyfill": "^7.4.4",
@@ -28,6 +28,7 @@
         "@babel/preset-env": "^7.4.4",
         "babel-core": "^7.0.0-bridge.0",
         "babel-jest": "^24.8.0",
+        "cross-env": "^5.2.0",
         "regenerator-runtime": "^0.13.2"
     }
 }

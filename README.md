@@ -1,5 +1,5 @@
 # learn-express
->Nodejs Web framework인 Express로 RESTAPI 서버 구축 따라하며 배우기
+>Nodejs Web framework인 Express로 RESTAPI 서버 구축 따라 배우기  
 
 ## barnch
 * [3-express-미들웨어](https://github.com/iyoungman/learn-express/tree/3-express-%EB%AF%B8%EB%93%A4%EC%9B%A8%EC%96%B4)
